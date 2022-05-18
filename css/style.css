@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+  font-family: georgia, "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  margin: 40px;
+  background: url("../images/background.jpg") center center / cover no-repeat fixed;
+  color: #fffcea;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 50px 50px 50px;
+  border-radius: 35px;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+.image img {
+  margin: 0 auto;
+  width: 85%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
+.footer {
+  margin-top: 100px;
+  text-align: right;
+}
